@@ -1,0 +1,35 @@
+{
+  "React Functional Component": {
+    "prefix": "rfc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "const ${1:ComponentName} = () => {",
+      "  return (",
+      "    <div className=\"${2:component}\">",
+      "      ${3}",
+      "    </div>",
+      "  );",
+      "};",
+      "",
+      "export default ${1:ComponentName};"
+    ],
+    "description": "Create React functional component"
+  },
+  "React useState Hook": {
+    "prefix": "us",
+    "body": [
+      "const [${1:value}, set${2:Value}] = React.useState(${3:null});"
+    ],
+    "description": "React useState"
+  },
+  "React useEffect Hook": {
+    "prefix": "ue",
+    "body": [
+      "React.useEffect(() => {",
+      "  ${1:// logic here}",
+      "}, [${2}]);"
+    ],
+    "description": "React useEffect"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "midnight-react",
+  "displayName": "Midnight React",
+  "description": "A premium dark VS Code theme crafted for React, TypeScript, TSX, JavaScript and JSX developers.",
+  "version": "1.0.0",
+  "publisher": "shubhamraj",
+  "icon": "assets/MidnightReactLogo.png",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "react",
+    "typescript",
+    "tsx",
+    "javascript",
+    "jsx",
+    "dark theme",
+    "midnight",
+    "react theme",
+    "vscode theme",
+    "developer theme"
+  ],
+  "galleryBanner": {
+    "color": "#05091C",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/buildwithsr/midnight-react"
+  },
+  "homepage": "https://github.com/buildwithsr/midnight-react",
+  "bugs": {
+    "url": "https://github.com/buildwithsr/midnight-react/issues"
+  },
+  "license": "MIT",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Midnight React",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Midnight React-color-theme.json"
+      }
+    ]
+  }
+}
