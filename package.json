@@ -3,7 +3,7 @@
   "displayName": "Midnight React",
   "description": "A premium dark VS Code theme crafted for React, TypeScript, TSX, JavaScript and JSX developers.",
   "version": "1.0.0",
-  "publisher": "shubhamraj",
+  "publisher": "buildwithsr",
   "icon": "assets/MidnightReactLogo.png",
   "engines": {
     "vscode": "^1.85.0"
